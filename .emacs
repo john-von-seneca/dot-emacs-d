@@ -1,0 +1,68 @@
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(LaTeX-indent-comment-start-regexp "% ")
+ '(LaTeX-indent-level 4)
+ '(LaTeX-item-indent 4)
+ '(LaTeX-left-right-indent-level 4)
+ '(TeX-brace-indent-level 4)
+ '(TeX-newline-function (quote newline-and-indent))
+ '(blink-cursor-mode nil)
+ '(c-basic-offset 4)
+ '(column-number-mode t)
+ '(custom-safe-themes
+   (quote
+	("d9a09bb02e2a1c54869dfd6a1412553fe5cb2d01a94ba25ef2be4634d1ca2c79" "06ef8f3079386219616608b27165efe77a11925eccae56dfe021adf6f2e263b2" "a53714de04cd4fdb92ed711ae479f6a1d7d5f093880bfd161467c3f589725453" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
+ '(global-rinari-mode f)
+ '(haskell-indent-spaces 4)
+ '(inhibit-startup-screen t)
+ '(latex-imenu-indent-string ".	")
+ '(latex-indent-within-escaped-parens nil)
+ '(matlab-auto-fill nil)
+ '(matlab-block-indent-tic-toc-flag t)
+ '(matlab-case-level (quote (4 . 4)))
+ '(matlab-comment-line-s "%-%- ")
+ '(matlab-comment-on-line-s "%-%- ")
+ '(matlab-fill-code nil)
+ '(matlab-fill-fudge-hard-maximum 100)
+ '(matlab-functions-have-end t)
+ '(matlab-indent-function nil)
+ '(matlab-indent-level 4)
+ '(matlab-return-add-semicolon t)
+ '(matlab-show-mlint-warnings t)
+ '(menu-bar-mode t)
+ '(pr-file-duplex t)
+ '(python-guess-inxlisdent t)
+ '(python-honour-comment-indentation t)
+ '(python-indent-guess-indent-offset t)
+ '(python-indent-string-contents nil)
+ '(recentf-max-menu-items 40)
+ '(recentf-max-saved-items 50)
+ '(rinari-major-modes (quote (ruby)))
+ '(shift-select-mode t)
+ '(show-paren-mode t)
+ '(speedbar-frame-parameters
+   (quote
+	((minibuffer)
+	 (width . 20)
+	 (border-width . 0)
+	 (menu-bar-lines . 0)
+	 (tool-bar-lines . 0)
+	 (unsplittable . t)
+	 (set-background-color "black"))))
+ '(tex-close-quote "\"")
+ '(tex-open-quote "\""))
+
+;; init
+;; (add-to-list 'load-path "~/.emacs.d/")
+(load "~/.emacs.d/init.el")
+;; (require 'init)
+
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
