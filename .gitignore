@@ -18,3 +18,5 @@ session.*
 xkcd/
 "Icon\r"
 semanticdb/
+*swp
+*#
