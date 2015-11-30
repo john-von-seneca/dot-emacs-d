@@ -13,6 +13,7 @@ srecode-map.el
 .cask
 .sync
 .sync/ID
+.saves
 init.elc
 session.*
 xkcd/

@@ -63,13 +63,22 @@
 (global-unset-key (kbd "s-s"))
 (global-set-key (kbd "s-s") 'save-buffer)
 
+(global-unset-key (kbd "M-s-s"))
+(global-set-key (kbd "M-s-s") 'projectile-ag)
+
 ;; (global-unset-key (kbd "C-w"))
+
+(global-unset-key (kbd "M-s-u"))
+(global-set-key (kbd "M-s-u") 'helm-gtags-update-tags)
 
 (global-unset-key (kbd "s-v"))
 (global-set-key (kbd "s-v") 'yank)
 
 (global-unset-key (kbd "s-x"))
 (global-set-key (kbd "s-x") 'kill-region)
+
+(global-unset-key (kbd "s-y"))
+(global-set-key (kbd "s-y") 'yas-insert-snippet)
 
 (global-set-key "\C-z" 'undo)
 (global-unset-key (kbd "s-z"))
