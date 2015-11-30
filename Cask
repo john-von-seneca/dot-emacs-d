@@ -67,6 +67,8 @@
 (depends-on "grizzl")
 (depends-on "gtags")
 (depends-on "hamlet-mode")
+(depends-on "haskell-mode")
+(depends-on "haskell-snippets")
 (depends-on "helm")
 (depends-on "helm-anything")
 (depends-on "helm-company")
