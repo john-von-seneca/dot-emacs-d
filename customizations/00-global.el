@@ -30,6 +30,8 @@
 (require 'ack-and-a-half)
 ;; (require 'projectile)
 
+(require 'ein)
+
 ;; Git
 ;; (require 'magit)
 
