@@ -21,6 +21,9 @@
 (global-unset-key (kbd "s-f"))
 (global-set-key (kbd "s-f") 'find-file)
 
+(global-unset-key (kbd "M-s-f"))
+(global-set-key (kbd "M-s-f") 'projectile-find-file)
+
 (global-unset-key (kbd "s-g"))
 (global-set-key (kbd "s-g") 'keyboard-escape-quit)
 (global-set-key (kbd "H-g") 'keyboard-escape-quit)
@@ -44,6 +47,9 @@
 
 ;; (global-unset-key (kbd "s-o"))
 ;; (global-set-key (kbd "s-o") 'other-window)
+
+(global-unset-key (kbd "M-s-o"))
+(global-set-key (kbd "M-s-o") 'projectile-switch-project)
 
 (global-unset-key (kbd "s-p"))
 (global-set-key (kbd "s-p") 'shell-command)
