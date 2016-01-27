@@ -7,9 +7,15 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 
+(load-library "url-handlers")
+
+;; (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
+;;                          ("marmalade" . "http://marmalade-repo.org/packages/")
+;;                          ("melpa" . "http://melpa.milkbox.net/packages/")))
+
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-                         ("marmalade" . "http://marmalade-repo.org/packages/")
                          ("melpa" . "http://melpa.milkbox.net/packages/")))
+
 
 ;; (unless (file-exists-p "~/.emacs.d/.emacs_workgroups"))
 ;;  (make-directory "~/.emacs.d/.emacs_workgroups"))
