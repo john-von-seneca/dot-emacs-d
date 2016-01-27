@@ -27,7 +27,7 @@
 (require 'flx-ido)
 
 ;; Project management
-(require 'ack-and-a-half)
+;; (require 'ack-and-a-half)
 ;; (require 'projectile)
 
 (require 'ein)
