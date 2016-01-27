@@ -76,6 +76,9 @@
 
 (global-unset-key (kbd "s-x"))
 (global-set-key (kbd "s-x") 'kill-region)
+(global-unset-key (kbd "M-x"))
+(global-set-key (kbd "M-x") 'smex)
+
 
 (global-unset-key (kbd "s-y"))
 (global-set-key (kbd "s-y") 'yas-insert-snippet)
