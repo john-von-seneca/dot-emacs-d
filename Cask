@@ -109,6 +109,7 @@
 (depends-on "paredit-everywhere")
 (depends-on "pbcopy")
 (depends-on "pcache")
+(depends-on "php-mode")
 (depends-on "pkg-info")
 (depends-on "powerline")
 (depends-on "projectile")

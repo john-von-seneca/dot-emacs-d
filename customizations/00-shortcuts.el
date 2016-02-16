@@ -22,7 +22,9 @@
 (global-set-key (kbd "s-f") 'find-file)
 
 (global-unset-key (kbd "M-s-f"))
+(global-unset-key (kbd "C-M-f"))
 (global-set-key (kbd "M-s-f") 'projectile-find-file)
+(global-set-key (kbd "C-M-f") 'projectile-find-file)
 
 (global-unset-key (kbd "s-g"))
 (global-set-key (kbd "s-g") 'keyboard-escape-quit)
