@@ -92,6 +92,10 @@
 (global-set-key (kbd "H-z") 'undo)
 
 
+(global-unset-key (kbd "s-`"))
+(global-set-key (kbd "s-`") 'vimish-fold)
+
+
 (global-set-key [backspace] 'delete-backward-char)
 
 (global-unset-key (kbd "<end>"))
