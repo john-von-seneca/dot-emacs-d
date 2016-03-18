@@ -17,7 +17,7 @@
 ;; for example Boost include paths, use the function
 ;; semantic-add-system-include like this:
 ;;
-(semantic-add-system-include "/usr/include/boost" 'c++-mode)
+;; (semantic-add-system-include "/usr/include/boost" 'c++-mode)
 ;; If you want the system include paths to be available on both C/C++
 ;; modes, then ignore the optional mode argument in
 ;; semantic-add-system-include.
