@@ -26,7 +26,7 @@
   "Turn on pseudo-structural editing of Lisp code."
   t)
 
-(vimish-fold-global-mode 1)
+;; (vimish-fold-global-mode 1)
 
 
 ;; irony-mode
@@ -40,3 +40,5 @@
     'irony-completion-at-point-async))
 (add-hook 'irony-mode-hook 'my-irony-mode-hook)
 (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
+
+(setq speedbar-use-images nil)

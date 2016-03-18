@@ -51,3 +51,5 @@
 (global-unset-key (kbd "M-s-<right>"))
 (define-key helm-gtags-mode-map (kbd "M-s-<right>") 'helm-gtags-next-history)
 
+(setq-local imenu-create-index-function #'ggtags-build-imenu-index)
+

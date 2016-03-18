@@ -1,0 +1,22 @@
+c++
+
+moo
+	C-M-j		-	moo-local-jump				-	for jumping to any tag in the source code
+	M-o			-	moo-complete				-	autocomplete
+sexp movement C-M- 
+	{<>}		-	balanced expression navigation
+	{home,end}	-	function navigation [moves to the beginning/end of prev/next function]
+	C-M-h		-	marks the current function
+
+ggtags
+	M-s-{<>}	-	helm-gtags-{previous,next}-history
+	M-g a		-	ggtags-find-tags-in-this-function ggta
+
+function-args
+	M-i			-	fa-show						-	{overlay} show overlay hints
+	M-u			-	fa-abort					-	{overlay} hide overlay hints
+	M-{p,n}		-	fa-idx-cycle-{up,down}		-	{overlay} cycle among hints
+	M-j			-	fa-jump-maybe				-	{overlay} jumps to function deftn
+
+misc
+	++			-	sr-speedbar-toggle			-	file browser frame
