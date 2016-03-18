@@ -150,6 +150,7 @@
 (depends-on "smartrep")
 (depends-on "smex")
 (depends-on "sr-speedbar")
+(depends-on "srefactor")
 (depends-on "starter-kit")
 (depends-on "swiper")
 (depends-on "vimish-fold")
