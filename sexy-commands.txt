@@ -18,5 +18,18 @@ function-args
 	M-{p,n}		-	fa-idx-cycle-{up,down}		-	{overlay} cycle among hints
 	M-j			-	fa-jump-maybe				-	{overlay} jumps to function deftn
 
+projectile
+	S-M-o		-	projectile-switch-project	-
+	C-c p p		-	projectile-switch-project	-
+	S-M-s		-	projectile-ag
+	M-s-f		-	projectile-find-file
+	C-c p F		-	projectile-find-file-in-known-projects
+	s-p F		-	projectile-find-file-in-known-projects
+	s-p D		-	projectile-dired
+	C-c p 4 a	-	projectile-find-other-file-other-window	-	Switch between files with the same name 
+	s-p 4 a		-	projectile-find-other-file-other-window	-	but different extensions in other window.
+	C-c p c		-	projectile-compile-project
+
+
 misc
 	++			-	sr-speedbar-toggle			-	file browser frame

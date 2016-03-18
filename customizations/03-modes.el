@@ -3,7 +3,6 @@
 (blink-cursor-mode t)
 (delete-selection-mode 1) ;; equivalent to cua-mode
 (desktop-save-mode 1)
-(flx-ido-mode 1)
 (icomplete-mode t)
 (ido-mode t)
 (ido-vertical-mode)

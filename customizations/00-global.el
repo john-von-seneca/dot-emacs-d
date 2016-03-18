@@ -23,9 +23,6 @@
 ;; (add-to-list 'ac-modes 'enh-ruby-mode)
 ;; (add-to-list 'ac-modes 'web-mode)
 
-;; flx-ido completion system, recommended by Projectile
-(require 'flx-ido)
-
 ;; Project management
 ;; (require 'ack-and-a-half)
 ;; (require 'projectile)

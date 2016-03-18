@@ -53,6 +53,9 @@
 (global-unset-key (kbd "M-s-o"))
 (global-set-key (kbd "M-s-o") 'projectile-switch-project)
 
+(global-unset-key (kbd "s-p d"))
+(global-set-key (kbd "s-p d") 'projectile-dired)
+
 (global-unset-key (kbd "s-p"))
 (global-set-key (kbd "s-p") 'shell-command)
 
@@ -188,8 +191,8 @@
 (global-unset-key (kbd "H-F"))
 (global-set-key (kbd "H-F") 'projectile-find-file)
 
-(global-unset-key (kbd "s-g"))
-(global-unset-key (kbd "C-c g"))
+;; (global-unset-key (kbd "s-g"))
+;; (global-unset-key (kbd "C-c g"))
 
 (global-set-key (kbd "<f5>") (lambda ()
                                (interactive)
