@@ -42,3 +42,4 @@
 (add-hook 'irony-mode-hook 'irony-cdb-autosetup-compile-options)
 
 (setq speedbar-use-images nil)
+
