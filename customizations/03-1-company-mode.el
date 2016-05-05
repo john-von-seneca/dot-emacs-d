@@ -25,3 +25,5 @@
 ;; (add-to-list 'company-c-headers-path-system "/usr/include/c++/4.8/")
 ;; After that, you can complete C++ header files. To complete project
 ;; local, use company-c-headers-path-user and put it in .dir-locals.el.
+
+(push 'company-robe company-backends)
