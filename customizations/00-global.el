@@ -63,8 +63,10 @@
 ;; replace C-S-<return> with a key binding that you want
 
 ;; prelude shit
+(setq prelude-theme nil)
 (load "~/neo-human/repos/prelude/init.el")
 (setq prelude-guru nil)
+(setq prelude-theme nil)
 
 
 ;; ;; god knows what these are
