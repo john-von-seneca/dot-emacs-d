@@ -200,3 +200,7 @@
                                (setq-local compilation-read-command nil)
                                (call-interactively 'compile)))
 
+
+
+(require 'multiple-cursors)
+(global-set-key (kbd "M-s-k") 'mc/edit-lines)
