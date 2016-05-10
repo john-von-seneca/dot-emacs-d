@@ -5,8 +5,10 @@ var/*
 ac-comphist.dat
 *~
 places
-.emacs.desktop
 .smex-items
+.emacs.desktop
+.emacs.linux.desktop
+.emacs.darwin.desktop
 projectile-bookmarks.eld
 srecode-map.el
 *lock

@@ -2,7 +2,6 @@
 ;; (autopair-global-mode 1)
 (blink-cursor-mode t)
 (delete-selection-mode 1) ;; equivalent to cua-mode
-(desktop-save-mode 1)
 (icomplete-mode t)
 (ido-mode t)
 (ido-vertical-mode)
@@ -43,3 +42,7 @@
 
 (setq speedbar-use-images nil)
 
+(require 'desktop)
+;; (setq desktop-path (list "~/.emacs.d/" system-type))
+(setq desktop-base-file-name (format ".emacs.%s.desktop" (if (eq system-type 'darwin) "darwin" "linux")))
+(desktop-save-mode 1)
