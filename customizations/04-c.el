@@ -8,3 +8,5 @@
 (add-hook 'c++-mode-hook 'company-mode)
 (add-hook 'c-mode-hook 'company-mode)
 (add-hook 'objc-mode-hook 'company-mode)
+
+(c-set-offset (quote cpp-macro) 0 nil)
