@@ -5,6 +5,7 @@
 (source org)
 
 (depends-on "2048-game")
+(depends-on "ac-anaconda")
 (depends-on "ace-isearch")
 (depends-on "ace-jump-buffer")
 (depends-on "ace-jump-mode")
@@ -12,6 +13,7 @@
 (depends-on "ack")
 (depends-on "ack-and-a-half")
 (depends-on "ag")
+(depends-on "anaconda-mode")
 (depends-on "anzu")
 (depends-on "ascii")
 (depends-on "async")
@@ -31,6 +33,7 @@
 (depends-on "color-theme-sanityinc-tomorrow")
 (depends-on "color-theme-solarized")
 (depends-on "company")
+(depends-on "company-anaconda")
 (depends-on "company-c-headers")
 (depends-on "company-inf-ruby")
 (depends-on "company-restclient")
