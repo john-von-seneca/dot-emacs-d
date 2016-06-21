@@ -28,11 +28,16 @@
 (require 'helm-gtags)
 (add-hook 'dired-mode-hook 'helm-gtags-mode)
 (add-hook 'eshell-mode-hook 'helm-gtags-mode)
+
 (add-hook 'c-mode-hook 'helm-gtags-mode)
 (add-hook 'c-mode-hook 'function-args-mode)
+
 (add-hook 'c++-mode-hook 'function-args-mode)
 (add-hook 'c++-mode-hook 'helm-gtags-mode)
 (add-hook 'asm-mode-hook 'helm-gtags-mode)
+
+;; (add-hook 'python-mode-hook 'helm-gtags-mode)
+;; (add-hook 'python-mode-hook 'function-args-mode)
 
 (define-key helm-gtags-mode-map (kbd "M-g a") 'helm-gtags-tags-in-this-function)
 (define-key helm-gtags-mode-map (kbd "C-j") 'helm-gtags-select)
