@@ -10,7 +10,7 @@
 
 (require 'elpy)
 (elpy-enable)
-(elpy-use-ipython)
+;; (elpy-use-ipython)
 
 (add-hook 'elpy-mode-hook (lambda () (flymake-mode -1)))
 (add-hook 'python-mode-hook (lambda () (flymake-mode -1)))

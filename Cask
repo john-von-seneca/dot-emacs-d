@@ -48,7 +48,6 @@
 (depends-on "discover-my-major")
 (depends-on "easy-kill")
 (depends-on "ein")
-(depends-on "ein-mumamo")
 (depends-on "elisp-slime-nav")
 (depends-on "elpy")
 (depends-on "epl")

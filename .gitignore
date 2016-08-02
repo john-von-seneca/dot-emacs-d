@@ -31,3 +31,6 @@ tramp
 irony/
 vimish-fold/
 .bkp
+
+abbrev_defs
+.mc-lists.el
