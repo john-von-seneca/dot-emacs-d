@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 NEODIR="$HOME/neo-human"
-GITREPOS="$NEODIR/repos"
+GITREPOS="$HOME/repos"
 
 if [[ ! -e ~/.cask ]]; then
     echo "Cloning Cask repo"
@@ -25,7 +25,7 @@ cd ~/.emacs.d
 cask install
 
 if [[ ! -e $GITREPOS/prelude ]]; then
-    echo "Cloning prelude to ~/git-repos/prelude"
+    echo "Cloning prelude to ~/repos/prelude"
     git clone git@github.com:bbatsov/prelude.git $GITREPOS/prelude
 else
     echo "Prelude already present"
