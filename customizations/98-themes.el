@@ -11,6 +11,12 @@
  	 (setq prelude-theme "leuven")
   nil)
 
+;; (load-theme 'material)
+;; (load-theme 'material-light)
+;; (load-theme 'aurora)
+(load-theme 'base16-ashes t)
+;; (load-theme 'base16-ocean)
+
 ;; (set-cursor-color "firebrick")
 ;; leuven default
 ;; (set-cursor-color "#21BDFF")

@@ -67,7 +67,7 @@
 (if (eq system-type 'darwin)
 	(setq prelude-theme nil)
 	nil)
-(load "~/neo-human/repos/prelude/init.el")
+(load "~/repos/prelude/init.el")
 (setq prelude-guru nil)
 (if (eq system-type 'darwin)
 	(setq prelude-theme nil)
