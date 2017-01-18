@@ -10,6 +10,17 @@
 (define-key c-mode-map  [(tab)] 'company-complete)
 (define-key c++-mode-map  [(tab)] 'company-complete)
 (define-key lisp-mode-map  [(tab)] 'company-complete)
+
+(use-package company
+  :diminish company-mode
+  :commands company-mode
+  :init
+  (setq
+   company-dabbrev-ignore-case nil
+   company-dabbrev-code-ignore-case nil
+   company-dabbrev-downcase nil
+   company-idle-delay 0
+   company-minimum-prefix-length 4))
 ;;
 ;; company-c-headers provides auto-completion for C/C++ headers using Company.
 ;; After installing from MELPA, set it up:
