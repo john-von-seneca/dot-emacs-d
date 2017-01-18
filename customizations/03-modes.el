@@ -46,3 +46,4 @@
 ;; (setq desktop-path (list "~/.emacs.d/" system-type))
 (setq desktop-base-file-name (format ".emacs.%s.desktop" (if (eq system-type 'darwin) "darwin" "linux")))
 (desktop-save-mode 1)
+

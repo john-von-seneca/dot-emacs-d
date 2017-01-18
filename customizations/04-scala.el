@@ -72,6 +72,31 @@
   (ensime))
 
 
+(add-hook 'scala-mode-hook 'auto-highlight-symbol-mode)
+
+;; (use-package goto-chg)
+(add-hook 'scala-mode-hook 'company-mode)
+(add-hook 'scala-mode-hook 'smartparens-mode)
+;; (add-hook 'c++-mode-hook ')
+
+(defun scala-mode-newline-comments ()
+  "Custom newline appropriate for `scala-mode'."
+  ;; shouldn't this be in a post-insert hook?
+  (interactive)
+  (newline-and-indent)
+  (scala-indent:insert-asterisk-on-multiline-comment))
+
+(bind-key "RET" 'scala-mode-newline-comments scala-mode-map)
+
+(add-hook 'scala-mode-hook
+		  (setq comment-start "/* "
+				 comment-end " */"
+				 comment-style 'multi-line
+				 comment-empty-lines t))
+
+(sp-local-pair 'scala-mode "(" nil :post-handlers '(("||\n[i]" "RET")))
+(sp-local-pair 'scala-mode "{" nil :post-handlers '(("||\n[i]" "RET") ("| " "SPC")))
+
 ;; (global-unset-key (kbd "s-."))
 ;; (global-set-key (kbd "s-.") 'ensime-edit-definition)
 ;; (ensime-edit-definition ARG &optional WHERE)
