@@ -14,11 +14,13 @@
 ;; (load-theme 'material)
 ;; (load-theme 'material-light)
 ;; (load-theme 'aurora)
-(load-theme 'leuven t)
+;; (load-theme 'leuven t)
 ;; (load-theme 'base16-ashes t)
 ;; (load-theme 'base16-ocean)
+;; (load-theme 'zenburn)
+(load-theme 'anti-zenburn)
 
-;; (set-cursor-color "firebrick")
+(set-cursor-color "firebrick")
 ;; leuven default
 ;; (set-cursor-color "#21BDFF")
 
