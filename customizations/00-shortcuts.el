@@ -109,6 +109,9 @@
 (global-unset-key (kbd "s-/"))
 (global-set-key (kbd "s-/") 'comment-or-uncomment-region)
 
+(global-unset-key (kbd "M-/"))
+(global-set-key (kbd "M-/") 'comment-or-uncomment-region)
+
 (global-unset-key (kbd "s-="))
 (global-set-key (kbd "s-=") 'show-subtree)
 
@@ -116,7 +119,8 @@
 (global-set-key (kbd "s--") 'hide-subtree)
 
 (global-unset-key (kbd "s-."))
-(global-set-key (kbd "s-.") 'find-tag)
+;; (global-set-key (kbd "s-.") 'find-tag)
+(global-set-key (kbd "s-.") 'xref-find-definitions)
 
 (global-unset-key (kbd "s-8"))
 (global-set-key (kbd "s-8") 'pop-tag-mark)
