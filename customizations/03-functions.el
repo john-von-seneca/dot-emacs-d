@@ -116,3 +116,17 @@ This command does not push text to `kill-ring'."
 (global-set-key (kbd "C-k") 'my-delete-line)
 (global-set-key (kbd "M-d") 'my-delete-word)
 (global-set-key (kbd "<M-backspace>") 'my-backward-delete-word)
+
+;; http://ensime.org/editors/emacs/hacks#undo
+(use-package undo-tree
+			 :diminish undo-tree-mode
+			 :config (global-undo-tree-mode)
+			 :bind ("s-z" . undo-tree-visualize))
+
+
+;; http://ensime.org/editors/emacs/hacks#undo
+(use-package highlight-symbol
+			 :diminish highlight-symbol-mode
+			 :commands highlight-symbol
+			 :bind ("s-h" . highlight-symbol))
+
