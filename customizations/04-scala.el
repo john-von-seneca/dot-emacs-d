@@ -36,6 +36,7 @@
 
 
 (setq ensime-startup-snapshot-notification nil)
+(setq ensime-startup-notification nil)
 (setq scala-prettify-symbols
 	  '(
 		("=>" . ?⇒)
