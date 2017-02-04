@@ -130,3 +130,9 @@ This command does not push text to `kill-ring'."
 			 :commands highlight-symbol
 			 :bind ("s-h" . highlight-symbol))
 
+
+
+(defun kill-other-buffers ()
+  "Kill all other buffers."
+  (interactive)
+  (mapc 'kill-buffer (delq (current-buffer) (buffer-list))))
