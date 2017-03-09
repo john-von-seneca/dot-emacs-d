@@ -13,12 +13,13 @@
 
 ;; http://stackoverflow.com/a/8547861/5510350
 ;; treating themes as safe
-(if (eq system-type 'darwin)
-	(load-theme 'anti-zenburn t)
-  (load-theme 'material t))
+;; (if (eq system-type 'darwin)
+;; 	(load-theme 'anti-zenburn t)
+;;   (load-theme 'material t))
 ;; (load-theme 'material-light)
 ;; (load-theme 'aurora)
 ;; (load-theme 'leuven t)
+(load-theme 'material t)
 ;; (load-theme 'base16-ashes t)
 ;; (load-theme 'base16-ocean)
 ;; (load-theme 'zenburn)
