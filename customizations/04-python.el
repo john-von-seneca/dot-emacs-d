@@ -53,3 +53,5 @@
   (kbd "C-c C-x l")
   (lambda () (interactive)  (insert "lambda ")))
 
+;; https://github.com/gabrielelanaro/emacs-for-python
+(load-file "~/repos/gabrielelanaro/emacs-for-python/epy-init.el")
