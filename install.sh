@@ -5,7 +5,8 @@ GITREPOS="$HOME/repos"
 
 if [[ ! -e ~/.cask ]]; then
     echo "Cloning Cask repo"
-    git clone git@github.com:cask/cask.git ~/.cask
+    #git clone git@github.com:cask/cask.git ~/.cask
+    git clone https://github.com/cask/cask.git ~/.cask
 else
     echo "Cask already present"
 fi
@@ -26,7 +27,8 @@ cask install
 
 if [[ ! -e $GITREPOS/prelude ]]; then
     echo "Cloning prelude to ~/repos/prelude"
-    git clone git@github.com:bbatsov/prelude.git $GITREPOS/prelude
+    #git clone git@github.com:bbatsov/prelude.git $GITREPOS/prelude
+    git clone https://github.com/bbatsov/prelude.git $GITREPOS/prelude
 else
     echo "Prelude already present"
 fi
