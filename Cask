@@ -58,6 +58,7 @@
 (depends-on "doremi")
 (depends-on "doremi-frm")
 (depends-on "easy-kill")
+(depends-on "eclim")
 (depends-on "ein")
 (depends-on "elisp-slime-nav")
 (depends-on "elpy")
