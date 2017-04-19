@@ -52,6 +52,10 @@
   python-mode-map
   (kbd "C-c C-x l")
   (lambda () (interactive)  (insert "lambda ")))
+(define-key
+  python-mode-map
+  (kbd "RET")
+  'py-newline-and-indent)
 
 ;; https://github.com/gabrielelanaro/emacs-for-python
-(load-file "~/repos/gabrielelanaro/emacs-for-python/epy-init.el")
+;; (load-file "~/repos/gabrielelanaro/emacs-for-python/epy-init.el")
