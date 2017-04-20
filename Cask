@@ -166,6 +166,7 @@
 (depends-on "material-theme")
 (depends-on "matlab-mode")
 (depends-on "mb-depth+")
+(depends-on "meghanada")
 (depends-on "moe-theme")
 (depends-on "molokai-theme")
 (depends-on "move-text")
