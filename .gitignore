@@ -37,3 +37,8 @@ abbrev_defs
 .emacs.linux.desktop.1
 .mc-lists*
 *elc
+
+
+eproject.lst
+meghanada/
+target/
