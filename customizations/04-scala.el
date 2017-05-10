@@ -19,15 +19,10 @@
 (require 'ensime)
 
 ;; (autoload 'scala-mode "scala-mode2")
-(add-to-list 'auto-mode-alist '("\\.scala$" . scala-mode))
-(add-to-list 'auto-mode-alist '("\\.scala$" . ensime-mode))
-
 (add-to-list 'auto-mode-alist '("\\.scala\\'" . scala-mode))
 (add-to-list 'auto-mode-alist '("\\.scala\\'" . ensime-mode))
 
-
-;; (setq ensime-startup-snapshot-notification nil)
-;; (add-hook 'scala-mode-hook 'ensime-scala-mode-hook)
+;; (add-hook 'scala-mode-hook 'ensime-scala-mode-hook) **/
 
 ;; (define-key
 ;;   scala-mode-map
@@ -74,9 +69,6 @@
 			(prettify-symbols-mode)
 			(define-key scala-mode-map (kbd "C-x M-e") 'ensime-fully-reload)
 			))
-
-
-
 
 (defun ensime-fully-reload ()
   "reload ensime"

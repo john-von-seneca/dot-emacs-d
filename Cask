@@ -221,6 +221,7 @@
 (depends-on "sr-speedbar")
 (depends-on "srefactor")
 (depends-on "starter-kit")
+(depends-on "string-inflection")
 (depends-on "swiper")
 (depends-on "synonyms")
 (depends-on "tango-2-theme")
