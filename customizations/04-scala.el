@@ -34,9 +34,18 @@
 ;;   (kbd "s-/")
 ;;   'comment-or-uncomment-region)
 
+(defun nh-set-ensime-config-file-name ()
+  (interactive)
+  (if (eq system-type 'darwin)
+	  (setq ensime-config-file-name ".ensime.darwin")
+	(setq ensime-config-file-name ".ensime.linux")))
+(add-hook 'ensime-scala-mode-hook 'nh-set-ensime-config-file-name)
+(add-hook 'ensime-mode-hook  'nh-set-ensime-config-file-name)
+
 
 (setq ensime-startup-snapshot-notification nil)
 (setq ensime-startup-notification nil)
+;; (funcall nh-set-ensime-config-file-name)
 (setq scala-prettify-symbols
 	  '(
 		("=>" . ?⇒)
@@ -58,19 +67,23 @@
 		("Unit" . ?∅)
 		))
 
-;; (add-hook 'scala-mode-hook
-;; 		  (lambda ()
-;; 			(ensime-scala-mode-hook)
-;; 			(setq prettify-symbols-alist scala-prettify-symbols)
-;; 			(prettify-symbols-mode)
-;; 			(define-key scala-mode-map (kbd "C-x M-e") 'ensime-fully-reload)
-;; 			))
+(add-hook 'scala-mode-hook
+		  (lambda ()
+			;;; (ensime-scala-mode-hook)
+			(setq prettify-symbols-alist scala-prettify-symbols)
+			(prettify-symbols-mode)
+			(define-key scala-mode-map (kbd "C-x M-e") 'ensime-fully-reload)
+			))
+
+
+
 
 (defun ensime-fully-reload ()
   "reload ensime"
   (interactive)
   (ensime-shutdown)
-  (ensime))
+  (ensime)
+  (nh-set-ensime-config-file-name))
 
 
 (add-hook 'scala-mode-hook 'auto-highlight-symbol-mode)
