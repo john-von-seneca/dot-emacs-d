@@ -19,7 +19,7 @@
 ;; (load-theme 'material-light)
 ;; (load-theme 'aurora)
 ;; (load-theme 'leuven t)
-(load-theme 'material t)
+;; (load-theme 'material t)
 ;; (load-theme 'base16-ashes t)
 ;; (load-theme 'base16-ocean)
 ;; (load-theme 'zenburn)

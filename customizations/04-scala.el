@@ -34,8 +34,8 @@
   (if (eq system-type 'darwin)
 	  (setq ensime-config-file-name ".ensime.darwin")
 	(setq ensime-config-file-name ".ensime.linux")))
-(add-hook 'ensime-scala-mode-hook 'nh-set-ensime-config-file-name)
-(add-hook 'ensime-mode-hook  'nh-set-ensime-config-file-name)
+;; (add-hook 'ensime-scala-mode-hook 'nh-set-ensime-config-file-name)
+;; (add-hook 'ensime-mode-hook  'nh-set-ensime-config-file-name) **/
 
 
 (setq ensime-startup-snapshot-notification nil)
@@ -74,8 +74,7 @@
   "reload ensime"
   (interactive)
   (ensime-shutdown)
-  (ensime)
-  (nh-set-ensime-config-file-name))
+  (ensime))
 
 
 (add-hook 'scala-mode-hook 'auto-highlight-symbol-mode)
