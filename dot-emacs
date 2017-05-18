@@ -65,7 +65,7 @@
 ;; init
 ;; (add-to-list 'load-path "~/.emacs.d/")
 
-(setq debug-on-error t)
+;; (setq debug-on-error t)
 
 (load "~/.emacs.d/init.el")
 ;; (require 'init)

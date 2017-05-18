@@ -3,8 +3,8 @@
 ;; ;; Theme
 ;; ;; https://github.com/bbatsov/zenburn-emacs
 
-;; (message (if (eq system-type 'darwin) "darwin" "linux"))
-;; (load-theme 'zenburn t)
+(message (if (eq system-type 'darwin) "darwin" "linux"))
+(load-theme 'zenburn t)
 ;; (load-theme 'leuven)
 
 ;; (if (eq system-type 'darwin)
