@@ -17,7 +17,7 @@
 
   ;; WORKAROUND https://github.com/Fuco1/smartparens/issues/543
   (bind-key "C-<left>" nil smartparens-mode-map)
-  (bind-key "C-<right>" nil smartparens-mode-map)
+  (bind-key "C-<right>" nil smartparens-mode-map))
 
-  (bind-key "s-<delete>" 'sp-kill-sexp smartparens-mode-map)
-  (bind-key "s-<backspace>" 'sp-backward-kill-sexp smartparens-mode-map))
+  ;; (bind-key "s-<delete>" 'sp-kill-sexp smartparens-mode-map)
+  ;; (bind-key "s-<backspace>" 'sp-backward-kill-sexp smartparens-mode-map))

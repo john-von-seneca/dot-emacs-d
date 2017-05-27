@@ -29,13 +29,12 @@
 ;;   (kbd "s-/")
 ;;   'comment-or-uncomment-region)
 
-(defun nh-set-ensime-config-file-name ()
-  (interactive)
-  (if (eq system-type 'darwin)
-	  (setq ensime-config-file-name ".ensime.darwin")
-	(setq ensime-config-file-name ".ensime.linux")))
+;; (defun nh-set-ensime-config-file-name ()
+;;   (interactive)
+;;   (if (eq system-type 'darwin)
+;; 	  (setq ensime-config-file-name ".ensime.darwin")
+;; 	(setq ensime-config-file-name ".ensime.linux")))
 ;; (add-hook 'ensime-scala-mode-hook 'nh-set-ensime-config-file-name)
-;; (add-hook 'ensime-mode-hook  'nh-set-ensime-config-file-name) **/
 
 
 (setq ensime-startup-snapshot-notification nil)
@@ -60,6 +59,7 @@
 		("alpha" . ?α)
 		("beta" . ?β)
 		("Unit" . ?∅)
+		(">=" . ?≥)
 		))
 
 (add-hook 'scala-mode-hook
