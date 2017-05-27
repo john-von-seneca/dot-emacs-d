@@ -132,6 +132,7 @@
 (depends-on "helm-robe")
 (depends-on "helm-rubygems-local")
 (depends-on "helm-rubygems-org")
+(depends-on "helm-swoop")
 (depends-on "helm-themes")
 (depends-on "helm-wordnet")
 (depends-on "hexrgb")
