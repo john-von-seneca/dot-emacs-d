@@ -90,8 +90,9 @@
 (setq-default tab-stop-list (list 4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96 100 104 108))
 
 
-(icy-mode 1)
-
+;; (icy-mode 1)
+(eval-when-compile
+  (require 'use-package))
 
 ;; (add-to-list 'default-frame-alist '(font . "DejaVu Sans Mono-10"))
 (provide '00-global)
