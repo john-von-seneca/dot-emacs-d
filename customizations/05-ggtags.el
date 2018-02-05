@@ -35,6 +35,7 @@
 (add-hook 'c++-mode-hook 'function-args-mode)
 (add-hook 'c++-mode-hook 'helm-gtags-mode)
 (add-hook 'asm-mode-hook 'helm-gtags-mode)
+(add-hook 'pig-mode-hook 'helm-gtags-mode)
 
 ;; (add-hook 'python-mode-hook 'helm-gtags-mode)
 ;; (add-hook 'python-mode-hook 'function-args-mode)

@@ -7,4 +7,4 @@
 
 ;; (setq auto-mode-alist (cons '("\\.m\\'" . matlab-mode) auto-mode-alist))
 (add-to-list 'auto-mode-alist '("\\.pig\\'" . pig-mode))
-(add-hook 'pig-mode-hook 'helm-gtags-mode)
+;; (add-hook 'pig-mode-hook 'helm-gtags-mode)
