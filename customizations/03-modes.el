@@ -21,6 +21,9 @@
 (global-linum-mode 1)
 (projectile-global-mode)
 
+(persistent-scratch-setup-default)
+;; (persistent-scratch-autosave-mode 1)
+
 (autoload 'enable-paredit-mode "paredit"
   "Turn on pseudo-structural editing of Lisp code."
   t)
