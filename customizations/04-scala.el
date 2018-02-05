@@ -68,6 +68,7 @@
 			(setq prettify-symbols-alist scala-prettify-symbols)
 			(prettify-symbols-mode)
 			(define-key scala-mode-map (kbd "C-x M-e") 'ensime-fully-reload)
+			(smartparens-mode -1)
 			))
 
 (defun ensime-fully-reload ()
