@@ -144,6 +144,8 @@
 ;; Change prefix key (before activating WG)
 (setq wg-prefix-key (kbd "C-c z"))
 
+
+
 ;;  ;; Set your own keyboard shortcuts to reload/save/switch WG:
 ;;  (global-set-key (kbd "s-y")  'wg-reload-session)
 ;;  (global-set-key (kbd "s-n")  'wg-save-session)
